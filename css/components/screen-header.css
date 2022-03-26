@@ -4,13 +4,25 @@
   padding: var(--horizontal-space);
   align-items: center;
   padding-top: 60px;
+  margin-bottom: 15px;
 }
 
-.header-header__title {
+.screen-header__title {
   font-size: 32px;
   font-weight: 600;
 }
 
-.header-header__icons span {
+.screen-header__icons span {
   margin-left: 25px;
+  position: relative;
+}
+
+.header-header__icons__point {
+  width: 7px;
+  height: 7px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  right: 15px;
 }
