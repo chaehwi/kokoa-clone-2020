@@ -57,12 +57,6 @@
 }
 
 .friends-screen-scroll {
-  height: 30vh;
+  height: 40vh;
   overflow: scroll;
-}
-
-.user-component:nth-child(2),
-.user-component__column:nth-child(2) {
-  display: flex;
-  justify-content: space-between;
 }

@@ -1,6 +1,7 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 80vh;
+  height: 100%;
+  width: 100%;
 }
 
 #chat-screen .alt-header,
