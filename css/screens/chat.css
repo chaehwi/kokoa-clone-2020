@@ -80,7 +80,7 @@
 .message-row__2 {
   transform: translatex(-400px);
   animation: leftside 0.9s linear forwards;
-  animation-delay: 2.1s;
+  animation-delay: 2.2s;
 }
 #message-row__img {
   width: 50px;

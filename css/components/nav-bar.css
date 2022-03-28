@@ -8,6 +8,14 @@
   box-sizing: border-box;
 }
 
+#chats-screen__cat1 img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+}
+
 .nav__list {
   display: flex;
   justify-content: space-between;

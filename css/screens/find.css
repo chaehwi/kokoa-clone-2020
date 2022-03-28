@@ -37,6 +37,10 @@
   margin-bottom: 20px;
 }
 
+.open-post img {
+  object-fit: cover;
+}
+
 .open-post__title {
   font-weight: 600;
   margin-bottom: 7px;

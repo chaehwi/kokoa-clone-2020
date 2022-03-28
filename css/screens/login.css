@@ -1,9 +1,15 @@
 .welcome-header {
-  margin: 90px 0px;
+  margin: 90px 0px 20px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+
+#login-png {
+  position: absolute;
+  z-index: 1;
 }
 
 .welcome-header__title {
@@ -19,7 +25,7 @@
 #login-form {
   display: flex;
   flex-direction: column;
-  margin: 0px 30px;
+  margin: 220px 30px 0px 30px;
 }
 
 #login-form input {
@@ -27,10 +33,12 @@
   border: none;
   font-size: 18px;
   margin-bottom: 25px;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
   transition: border-color 0.3s ease-in-out;
 }
 

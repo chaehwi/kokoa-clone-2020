@@ -53,3 +53,11 @@
   color: white;
   font-size: 30px;
 }
+
+#more-screen__cat2 img {
+  position: absolute;
+  width: 260px;
+  height: 200px;
+  right: 5px;
+  bottom: 70px;
+}
