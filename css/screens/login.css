@@ -10,7 +10,7 @@
 #login-png {
   position: absolute;
   z-index: 1;
-  margin-left: 50px;
+  top: 100px;
 }
 
 .welcome-header__title {
