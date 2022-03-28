@@ -57,6 +57,6 @@
 }
 
 .friends-screen-scroll {
-  height: 40vh;
+  height: 340px;
   overflow: scroll;
 }
