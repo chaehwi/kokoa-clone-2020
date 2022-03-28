@@ -1,12 +1,15 @@
 .user-component {
   justify-content: space-between;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .user-component__avatar {
@@ -71,7 +74,6 @@
   font-size: 13px;
   display: flex;
   align-items: center;
-  margin-left: 220px;
   justify-content: center;
 }
 
