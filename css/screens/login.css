@@ -7,12 +7,14 @@
   position: relative;
 }
 
+#login-png img {
+  width: 400px;
+}
 #login-png {
   position: absolute;
   z-index: 1;
-  top: 100px;
+  top: 120px;
 }
-
 .welcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
